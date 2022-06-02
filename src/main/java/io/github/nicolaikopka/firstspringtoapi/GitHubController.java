@@ -24,6 +24,7 @@ public class GitHubController {
 
     @GetMapping("{user}")
     public GitRepo[] getGitRepos(@PathVariable String user){
+        System.out.println(Arrays.stream(gitRepoService.getRepo(user)).toList().toString());
         return gitRepoService.getRepo(user);
 
 
