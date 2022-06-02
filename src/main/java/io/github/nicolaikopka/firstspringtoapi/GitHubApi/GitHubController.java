@@ -1,20 +1,10 @@
-package io.github.nicolaikopka.firstspringtoapi;
+package io.github.nicolaikopka.firstspringtoapi.GitHubApi;
 
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.autoconfigure.info.ProjectInfoProperties;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
-import java.lang.reflect.Array;
-import java.sql.ClientInfoStatus;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("github")

@@ -1,7 +1,7 @@
-package io.github.nicolaikopka.firstspringtoapi;
+package io.github.nicolaikopka.firstspringtoapi.GitHubApi;
 
 
-import org.springframework.http.ResponseEntity;
+import io.github.nicolaikopka.firstspringtoapi.GitHubApi.GitRepo;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

@@ -1,4 +1,4 @@
-package io.github.nicolaikopka.firstspringtoapi;
+package io.github.nicolaikopka.firstspringtoapi.GitHubApi;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
